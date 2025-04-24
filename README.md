@@ -1,22 +1,22 @@
-# SSGINC-Coding-Test-Study
-신세계I&C 자바 백엔드 5차수에서 진행하는 코딩테스트 스터디입니다.
+# SSGINC-Coding-Test-Study (w15 ~)
+신세계I&C 자바 백엔드 5차수 수료 이후 15주차부터 진행하는 코딩테스트 스터디입니다.
 
 <table>
   <tr>
     <td>스터디 기간</td>
-    <td>24/10/15 ~ 25/03/25</td>
+    <td>25/04/09 ~ 99/12/31</td>
   </tr>
   <tr>
     <td>스터디 시간</td>
-    <td>화요일 18:00 ~</td>
+    <td>수요일 ~ 목요일 중 코드리뷰</td>
   </tr>
   <tr>
-    <td>스터디 장소</td>
-    <td>강의실 또는 강의실 근처</td>
+    <td>스터디 방식</td>
+    <td>Slack, PR 코드리뷰</td>
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>백준</td>
+    <td>백준, 프로그래머스</td>
   </tr>
   <tr>
     <td>언어</td>
@@ -40,7 +40,7 @@
 
 ### Folder Structure
 - 대분류: 주차 / 중분류: 문제번호 / 파일명: 본인 깃허브 아이디
-- ex) `week1/1001/foo-bar.cpp…`
+- ex) `week1/1001/foo-bar.cpp`
 ```
 .
 └── week1
@@ -51,30 +51,36 @@
 
 ## 2️⃣ 스터디 내용
 ### 문제 상세
-- 유형: **DP, 완탐, 구현**, 그리디, 해시 위주
+- 유형: **DP, 완탐, 구현, 그래프**, 그리디, 해시 위주
 - 난이도: 
-<img src="https://static.solved.ac/tier_small/9.svg" alt="실버2" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/10.svg" alt="실버1" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/11.svg" alt="골드5" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/12.svg" alt="골드4" style="width:16px;height:auto;">
+<img src="https://static.solved.ac/tier_small/10.svg" alt="실버1" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/11.svg" alt="골드5" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/12.svg" alt="골드4" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/13.svg" alt="골드3" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/14.svg" alt="골드2" style="width:16px;height:auto;"> <img src="https://static.solved.ac/tier_small/15.svg" alt="골드1" style="width:16px;height:auto;">
 
 ### 문제 선정자 로테이션
 [@dckat](https://github.com/dckat) -> 
-[@C-H-Kim](https://github.com/C-H-Kim) -> 
-[@juil1-kim](https://github.com/juil1-kim) -> 
-[@HeeJava](https://github.com/HeeJava) -> 
-[@Queue-ri](https://github.com/Queue-ri) -> 
-[@DHKim96](https://github.com/DHKim96)
+[@Queue-ri](https://github.com/Queue-ri)
 
 ### 리뷰
-- 1문제당 2명씩 랜덤 선정하여 발표
-- 사용한 자료구조나 알고리즘, 발상의 흐름 등
+각자의 PR에서 코드리뷰를 진행합니다.
+- 리뷰어를 위해 PR에 풀이 내용 요약 정리하는 것을 권장
+- 질문 또는 코드의 개선 방향성 등을 제안
+- 사용한 자료구조나 알고리즘, 발상의 흐름 등을 설명
+- 피드백을 반영하여 PR 수정 및 컨펌
+- 상호를 존중하는👍 표현 사용
 
 ### 정리
-- 리뷰 완료한 직후 `main`에 merge
-- PR에 내용 요약 정리하는 것을 권장
+- PR approval을 받았다면 `main`에 merge한 후, 기존의 브랜치 삭제
+- 각자의 TIL 혹은 기술블로그에 추가 정리 가능
 
 ### 벌금 제도
-- 매 주 과제의 deadline은 스터디 직전까지
-- **AC 못받은 문제당 3000원씩** 벌금통장에 납부
-- **커밋 실수할 시 1500원** 납부 (convention, typo 유의)
+스터디 멤버들의 성실한 참여로, 벌금을 내야 할 일이 잘 발생하지 않습니다.
+
+하지만 스터디 진행이 원활하지 않다면 벌금 제도가 롤백될 수 있습니다.
+
+다음의 사항들에 늘 유의해주세요.
+
+- deadline을 엄수하여 PR 작성
+- 모든 문제를 AC 받아야 함
+- 커밋 실수하지 않기 (convention, typo 등)
 
 
 ## Members
