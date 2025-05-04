@@ -13,7 +13,10 @@ public class Main {
         for (int bit = 0; bit < (1 << n); ++bit) {
             if ((bit & (bit << 1)) != 0) continue; // check if overlapping
 
-            List<Character> charList = eq.chars().mapToObj(i->(char)i).collect(Collectors.toList());
+            List<Character> charList = new LinkedList<>();
+            for (char ch : eq.toCharArray()) {
+                charList.add(ch);
+            }
 
             // insert in reverse order to keep index
             for (int i = n-1; i > -1; --i) {
